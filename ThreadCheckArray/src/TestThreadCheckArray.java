@@ -9,7 +9,7 @@ public class TestThreadCheckArray {
 			int num  = input.nextInt();
 			ArrayList<Integer> array = new ArrayList<Integer>();
 			System.out.println("Enter numbers for array");
-			
+			//TAL THe King
 			for (int index = 0; index < num; index++) 
 				array.add(input.nextInt());
 			
