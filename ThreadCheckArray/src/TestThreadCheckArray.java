@@ -1,42 +1,13 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-<<<<<<< HEAD
-/**The class TestThreadCheckArray responsible of testing 
- * @author DanielOhayon
- * @author TalLevinzon
- * @version 1.0z Build 1 October 26, 2021.
- *  
- *  */
-=======
 
-/**
- * The class TestThreadCheckArray responsible of testing
- * 
- * @author DanielOhayon
- * @author TalLevinzon
- * @version 1.0z Build 1 October 26, 2021.
- * 
- */
->>>>>>> refs/remotes/origin/master
 public class TestThreadCheckArray {
-<<<<<<< HEAD
 	
 	/** 
 	 * The main method create SharedData object that used like common resource for the two threads.
 	 * The method get input size of array from user, get input elements from the user to the array and get input sum "b" element.
 	 * The method check with two threads if there is elements in array that equals together to sum "b".
 	 * If there is solution the thread that find the solution report to the second thread with boolean array that indicate the place of the elements that equal together to sum b.
-=======
-	/**
-	 * The main method create SharedData object that used like common resource for
-	 * the two threads. The method get input size of array from user, get input
-	 * elements from the user to the array and get input sum "b" element. The method
-	 * check with two threads if there is elements in array that equals together to
-	 * sum "b". If there is solution the thread that find the solution report to the
-	 * second thread with boolean array that indicate the place of the elements that
-	 * equal together to sum b.
->>>>>>> refs/remotes/origin/master
-	 *
 	 */
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
@@ -70,11 +41,8 @@ public class TestThreadCheckArray {
 			}
 			System.out.println("Solution for b : " + sd.getB() + ",n = " + sd.getArray().size());
 			System.out.print("I:    ");
-<<<<<<< HEAD
+
 			for(int index = 0; index < sd.getArray().size() ; index++)
-=======
-			for (int index = 0; index < sd.getArray().size(); index++)
->>>>>>> refs/remotes/origin/master
 				System.out.print(index + "    ");
 			System.out.println();
 			System.out.print("A:    ");
