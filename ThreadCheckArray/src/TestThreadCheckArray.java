@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class TestThreadCheckArray {
 	
 	/** 
-	 * The main method create SharedData object that used like common resource for the two threads.
+	 *  The main method create SharedData object that used like common resource for the two threads.
 	 * The method get input size of array from user, get input elements from the user to the array and get input sum "b" element.
 	 * The method check with two threads if there is elements in array that equals together to sum "b".
 	 * If there is solution the thread that find the solution report to the second thread with boolean array that indicate the place of the elements that equal together to sum b.
