@@ -1,7 +1,20 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/**The class TestThreadCheckArray responsible of testing 
+ * @author DanielOhayon
+ * @author TalLevinzon
+ * @version 1.0z Build 1 October 26, 2021.
+ *  
+ *  */
 public class TestThreadCheckArray {
+	
+	/** 
+	 * The main method create SharedData object that used like common resource for the two threads.
+	 * The method get input size of array from user, get input elements from the user to the array and get input sum "b" element.
+	 * The method check with two threads if there is elements in array that equals together to sum "b".
+	 * If there is solution the thread that find the solution report to the second thread with boolean array that indicate the place of the elements that equal together to sum b.
+	 *
+	 */
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
 			Thread thread1, thread2;
@@ -36,9 +49,9 @@ public class TestThreadCheckArray {
 				System.out.println("Sorry");
 				return;
 			}
-			System.out.println("Solution for b : " + sd.getB() + ",n = " + sd.getArray().length);
+			System.out.println("Solution for b : " + sd.getB() + ",n = " + sd.getArray().size());
 			System.out.print("I:    ");
-			for(int index = 0; index < sd.getArray().length ; index++)
+			for(int index = 0; index < sd.getArray().size() ; index++)
 				System.out.print(index + "    ");
 			System.out.println();
 			System.out.print("A:    ");
